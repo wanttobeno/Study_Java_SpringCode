@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+">
+    <!--必须1-->
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" />
+    <!--必须2-->
+    <bean class="com.yiibai.springmvc.PDFController"/>
+    <!--必须3-->
+    <bean class="org.springframework.web.servlet.view.XmlViewResolver">
+        <property name="location">
+            <value>/WEB-INF/views.xml</value>
+        </property>
+    </bean>
+
+</beans>

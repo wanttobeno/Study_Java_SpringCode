@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="IntegrateLog4j:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/IntegrateLog4j_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="IntegrateLog4j/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="IntegrateLog4j" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Apache Log4j_1.2" />
+          <element id="library" level="application" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

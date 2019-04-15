@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hibernate_validator_test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hibernate_validator_test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hibernate_validator_test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hibernate_validator_test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="application" name="lib" />
+          <element id="library" level="application" name="required" />
+          <element id="library" level="application" name="hibernate-validator-5.4.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
