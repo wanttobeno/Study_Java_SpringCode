@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringAnnotationBasedConfig:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringAnnotationBasedConfig_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringAnnotationBasedConfig/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringAnnotationBasedConfig" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
